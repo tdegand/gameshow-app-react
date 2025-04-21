@@ -1,50 +1,66 @@
-# Welcome to your Expo app 👋
+# Phrase Hunter Game 🎯
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Welcome to **Phrase Hunter**, a fun and interactive word-guessing game! Test your skills by guessing the hidden phrase one letter at a time. Can you guess the phrase before running out of lives?
 
-## Get started
+## How to Play
 
-1. Install dependencies
+1. **Start the Game**:
+
+   - Click the "Start Game" button to begin.
+
+2. **Guess the Phrase**:
+
+   - Use the on-screen keyboard or your physical keyboard to guess letters in the hidden phrase.
+   - Correct guesses will reveal the letters in the phrase.
+   - Incorrect guesses will cost you a life.
+
+3. **Win or Lose**:
+
+   - Win the game by guessing all the letters in the phrase before running out of lives.
+   - Lose the game if you make 5 incorrect guesses.
+
+4. **Restart the Game**:
+   - After the game ends, click the "Restart Game" button to play again.
+
+## Controls
+
+- **On-Screen Keyboard**:
+  - Click the buttons to guess letters.
+- **Physical Keyboard**:
+  - Type letters directly to make your guesses.
+
+## Features
+
+- **Dynamic Phrase Display**:
+  - The hidden phrase is displayed as rows of letters and spaces. Correct guesses reveal the letters, while spaces remain unchanged.
+- **Lives System**:
+  - You start with 5 lives. Each incorrect guess removes one life.
+- **Win/Lose Messages**:
+  - A message will display whether you win or lose the game.
+
+## Development Setup
+
+1. **Install Dependencies**:
 
    ```bash
    npm install
    ```
 
-2. Start the app
+2. **Start the App**:
 
    ```bash
-    npx expo start
+   npm start
    ```
 
-In the output, you'll find options to open the app in a
+3. **Run the Game**:
+   - Open the app in your browser or on a mobile device using Expo.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Learn More
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+This project was built using React and TypeScript. To learn more about the tools and frameworks used, check out the following resources:
 
-## Get a fresh project
+- [React Documentation](https://reactjs.org/docs/getting-started.html)
+- [TypeScript Documentation](https://www.typescriptlang.org/docs/)
+- [Expo Documentation](https://docs.expo.dev/)
 
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Enjoy the game and have fun guessing the phrase!
