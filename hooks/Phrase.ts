@@ -51,7 +51,6 @@ class Phrase {
     */
   checkLetter(letter: string): boolean {
     const normalizedLetter = letter.toLowerCase().trim();
-    console.log(`Checking if letter "${normalizedLetter}" is in the phrase "${this.phrase}"`);
     return this.phrase.includes(normalizedLetter);
   }
 

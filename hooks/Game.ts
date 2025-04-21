@@ -1,4 +1,5 @@
 import Phrase from './Phrase'; // Assuming Phrase is another module
+import phrasesData from '../data/phrase.json';
 
 class Game {
     // Define the properties here
@@ -17,25 +18,7 @@ class Game {
      * @return {array} An array of phrases that could be used in the game
      */
     createPhrases() {
-        const phrases = [
-            new Phrase('You talking to me'),
-            new Phrase('Heres Johnny'),
-            new Phrase('Hello My friend'),
-            new Phrase('This phrase is too long'),
-            new Phrase('Hello world'),
-            new Phrase('oh look a new phrase'),
-            new Phrase('what a nice surprise'),
-            new Phrase('a fools heart'),
-            new Phrase('shiver me timbers'),
-            new Phrase('gotta do some testing'),
-            new Phrase('Love and Peace'),
-            new Phrase('Rock on'),
-            new Phrase('fabulous movie'),
-            new Phrase('A diamond in the rough'),
-            new Phrase('A diamond is forever'),
-            new Phrase('Against the grain'),
-        ];
-        return phrases;
+        return phrasesData.map((phrase: string) => new Phrase(phrase));
     }
 
     /**
